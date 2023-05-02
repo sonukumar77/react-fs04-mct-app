@@ -1,0 +1,33 @@
+.create-blog-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid red; */
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.form-container {
+  width: 400px;
+  height: 400px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-container .input-container > input[type="text"],
+textarea {
+  border: 2px solid var(--dark);
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.form-container .input-container > button {
+  border-radius: 10px;
+}
